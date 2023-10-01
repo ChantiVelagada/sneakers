@@ -1,0 +1,125 @@
+.container {
+    width: 80%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    padding: 50px;
+}
+
+.container .info {
+    width: 50%;
+    padding: 50px;
+}
+
+/*  Image gallery Styling */
+
+.container .image-gallery {
+    width: 40%;
+}
+
+.image-gallery .selected-image {
+    width: 100%;
+    border-radius: 25px;
+}
+
+.img-thumbnail {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+
+.img-thumbnail img {
+    width: 90px;
+    border-radius:10px;
+}
+
+.img-thumbnail img:hover {
+    opacity: 0.5;
+}
+
+.img-thumbnail img:focus{
+    opacity: 0.2;
+    outline :4px solid hsl(26, 100%, 55%);
+}
+
+/* Product Info Styling */
+
+.info h2{
+    font-size: 2.5rem;
+    font-weight: bold;
+    margin-bottom: 30px;
+}
+
+.info .shoe-info {
+    font-size: 16px;
+    margin-bottom: 20px;
+    color: gray;
+}
+
+.info .offer-price {
+    font-weight: bolder;
+    font-size: 1.5rem;
+    margin-right: 20px;
+}
+
+.info .offer {
+    font-size: 14px;
+    padding: 3px 5px;
+    color: hsl(26, 100%, 55%);
+    font-weight: bold;
+    border-radius: 5px;
+    background-color: hsl(25, 100%, 94%);
+}
+
+.info .original-price {
+    color: lightgray;
+    font-size: 16px;
+    font-weight: bold;
+    margin: 15px 0 20px;
+    text-decoration: line-through;
+}
+
+.info div {
+    display: flex;
+    align-items: center;
+}
+
+.info .add-to-cart {
+    padding: 15px 20px;
+    margin-right: 10px;
+    width: 120px;
+    border: none;
+    border-radius: 10px;
+    font-weight: bolder;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 10px;
+}
+
+.add-to-cart img {
+    padding: 3px;
+}
+
+.info .btn {
+    padding: 15px 50px;
+    border: none;
+    border-radius: 10px;
+    display: flex;
+    gap: 10px;
+    font-size: 14px;
+    background-color: hsl(26, 100%, 55%);
+    color: white;
+    font-weight: bold;
+}
+
+.btn:hover {
+    background-color: hsl(25, 100%, 94%);
+}
+
+button:active {
+    transform: scale(0.95);
+}
+
+
